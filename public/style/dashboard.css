@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    /* background:url(../image/bg.jpg) no-repeat center center fixed;
+    background-size: cover;   */
+    overflow:hidden;
+}
+
+button{
+    font-size: 250%;
+    color: rgb(0, 0, 0);
+    background-color: #ffc300;
+    border: 8px solid #f600004f;
+    border-radius: 20px;
+}
+
+img{
+    background-size: cover; 
+}
+
+.invite{
+    position: absolute;
+    top: 25%;
+    left: 45%;
+}
+.create_poll{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+.history{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+}
+.logout{
+    position: absolute;
+    top: 75%;
+    left: 45%;
+}
+.admin{
+    position: absolute;
+    left: 45%;
+}
+

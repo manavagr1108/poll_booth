@@ -1,0 +1,32 @@
+button{
+    font-size: 150%;
+    color: rgb(0, 0, 0);
+    background-color: #ffc300;
+    border: 8px solid #f600004f;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover{
+    opacity: 0.5;
+    color: green; 
+    background: rgb(255, 0, 0);
+    font-weight: bold; 
+    
+}
+
+/* 
+.button-container{
+    left : 50%;
+    align-items: center;
+    justify-content: center
+} */
+h2{
+    text-align: center;
+}
+div{
+    font-size: 150%;
+    align-items: center;
+    justify-content: center;
+}

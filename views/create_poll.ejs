@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <link rel="stylesheet" href="../style/create_poll.css">
+</head>
+<body>
+    
+        <div class="container">
+        <input type="message" name="no_poll" id="nopoll" placeholder="Enter no of poll">
+        <button id='create'>enter no. of poll</button>
+        <input type="message" name="candidates" id="candidates" placeholder="Enter the candidates names">
+        <button id='add'>add</button>
+        </div>
+        <ul></ul>
+        <div class="btn">
+            <button id='createpoll'>create</button>
+            <button id='end'>end poll</button>
+        </div>
+        <h1>votes :</h1>
+        
+    <script type="text/javascript" src="../js/createpoll.js"></script>
+</body>
+</html>
