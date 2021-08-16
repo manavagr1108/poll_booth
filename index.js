@@ -102,7 +102,7 @@ io.on("connection", (socket) => {
             console.log(error);
         }else{
             console.log(results);
-            // return res.render('signup',{message:'user registered'})
+            // return res.render('signup',{mexssage:'user registered'})
         }
         })
       // db.query("SELECT * FROM results WHERE dates = ?",[data.time],(error, rows,fields)=>{

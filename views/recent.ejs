@@ -7,7 +7,13 @@
     <title>recent</title>
 </head>
 <body>
-    <h1>here all the recent polls in cronollogical order</h1>
+    <h1>here all the recent polls in cronological order</h1>
+    <ul>
+        <% items.forEach(function( eachitem){ %>
+            <div>  <li> <%= eachitem.label_%>       :       <%=eachitem.dates %> </li></div> 
+        <% }) %>
+     
+    </ul>
     <script type="text/javascript" src="../js/recent.js"></script>
 </body>
 </html>

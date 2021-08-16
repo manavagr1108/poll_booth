@@ -61,7 +61,7 @@ router.get('/newpoll',(req, res)=>{
 router.get('/admin',(req, res)=>{
    res.render('admin_log');
 })
-router.get('/recent',(req, res)=>{
-   res.render('recent');
-})
+// router.get('/recent',(req, res)=>{
+//    res.render('recent');
+// })
 module.exports = router;

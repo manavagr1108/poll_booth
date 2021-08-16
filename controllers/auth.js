@@ -91,4 +91,19 @@ exports.admin = (req,res) => {
             }
 }
 
- 
+exports.recent = (req, res)=>{
+    // res.render('recent')
+    
+       arr= db.query('select * from results',(err, rows,fields)=>{
+            if (err)
+            { 
+                console.log(err);
+            }
+            else
+            { 
+                res.render('recent',{items: rows})
+            }
+        })
+    // console.log(arr);
+    // res.render('recent');
+}
